@@ -11,7 +11,7 @@ public class Room {
         return cleared;
     }
 
-    private void setCleared() {
+    private void setCleared(boolean cleared) {
         this.cleared = cleared;
     }
 
@@ -19,7 +19,7 @@ public class Room {
         return occupant;
     }
 
-    private void setOccupant() {
+    private void setOccupant(String occupant) {
         this.occupant = occupant;
     }
 
@@ -27,7 +27,7 @@ public class Room {
         return treasure;
     }
 
-    private void setTreasure() {
+    private void setTreasure(String treasure) {
         this.treasure = treasure;
     }
 
